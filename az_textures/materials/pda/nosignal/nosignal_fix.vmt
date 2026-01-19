@@ -1,0 +1,16 @@
+"UnLitGeneric"
+{
+	$basetexture "pda/nosignal/nosignal_fix"
+	$translucent 1
+//	$alphatest 1
+
+	Proxies
+	{
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "30" 
+		}
+ 	}
+}
